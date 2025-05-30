@@ -1,4 +1,4 @@
-**Read this in other languages: [Русский](README.MD)**
+**Read this in other languages: [Русский](README.md)**
 
 The **Citeck Community** is an opensource content management palform that allows managing business processes, documents, and tasks.
 Please follow our [documentation](https://citeck-ecos.readthedocs.io/) and [official site](https://www.citeck.ru/) for more details.
