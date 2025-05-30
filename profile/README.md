@@ -1,94 +1,98 @@
-**Read this in other languages: [Русский](README.RU.MD)**
+**На других языках: [English](README.EN.MD)**
 
-The **Citeck Community** is an opensource content management palform that allows managing business processes, documents, and tasks.
-Please follow our [documentation](https://citeck-ecos.readthedocs.io/) and [official site](https://www.citeck.ru/) for more details.
+**Citeck** – система управления корпоративным контентом с открытым исходном кодом, позволяющая управлять бизнес-процессами, документами и задачами.
+Чтобы узнать больше пожалуйста ознакомьтесь с [документацией](https://citeck-ecos.readthedocs.io/) и [официальным сайтом](https://www.citeck.ru/).
 
-# Features
+# Возможности
 
-* **No-Code** Development of business applications without programming skills using a web-based artifact editor and BPMN processes.
-* **Low-Code** Extending No-Code and BPMS-created applications with advanced business logic through visual interface programming.
-* **Pro-Code** Implementation of complex business logic in custom microservices. Traditional or domain-specific language coding using dedicated IDEs.
+Citeck сочетает в себе:
+
+* **No-Code** - создание бизнес-приложений без навыков программирования с использованием веб-редактора артефактов и BPMN-процессов.
+* **Low-Code** - добавление более сложной бизнес-логики для приложений, созданных с помощью No-Code и BPMS и программирование в визуальном интерфейсе.
+* **Pro-Code** - реализация сложной бизнес-логики в собственном микросервисе. Написание кода на обычных или специализированных языках программирования, с использованием сред разработки на этих языках.
+
 
 # Deploy
 
-[Citeck Community](https://github.com/Citeck/citeck-community) repository provides a Docker Compose setup for running the Citeck Community.
+[Citeck Community](https://github.com/Citeck/citeck-community) репозиторий представляет собой настройку Docker Compose для запуска «Citeck Community».
+
 
 # Microservices and apps repos
 
-If you want to contribute to out platform and make it better, your help is very welcome. Down below there are links to microservices and apps repositories.
+Если вы хотите внести свой вклад в нашу платформу и сделать ее лучше, ваша помощь будет очень кстати. Ниже представлены ссылки на репозитории микросервисов и приложений.
 
-## Microservices repos
+## Репозитории микросервисов
 
-[UI](https://github.com/Citeck/ecos-ui) repository contains the user interface (UI) components and modules.
+[UI](https://github.com/Citeck/ecos-ui) - микросервис содержит компоненты и модули пользовательского интерфейса (UI).
 
-[model](https://github.com/Citeck/ecos-model) repository contains model definitions and configurations.
+[model](https://github.com/Citeck/ecos-model) - микросервис отвечает за информацию о типах, шаблонах нумерации, матрицах прав и т.д.
 
-[apps](https://github.com/Citeck/ecos-apps)  repository contains a collection of additional applications and modules.
+[apps](https://github.com/Citeck/ecos-apps) - микросервис, управляющий деплоем приложений и модулей Citeck.
 
-[notifications](https://github.com/Citeck/ecos-notifications) repository contains the notification templates and configurations.
+[notifications](https://github.com/Citeck/ecos-notifications) - микросервис отправки уведомлений (email, push-нотификации и др.) содержит шаблоны и конфигурации уведомлений.
 
-[process](https://github.com/Citeck/ecos-process) repository contains the process definitions and workflows.
+[process](https://github.com/Citeck/ecos-process) - микросервис для управления BPMN процессами.
 
-[history](https://github.com/Citeck/ecos-history) repository contains the history tracking and auditing functionality.
+[history](https://github.com/Citeck/ecos-history) - микросервис для хранения истории событий и аудита.
 
-[uiserv](https://github.com/Citeck/ecos-uiserv) repository contains configurations for the Citeck platform.
+[uiserv](https://github.com/Citeck/ecos-uiserv) - микросервис, предоставляющий элементы UI и хранящий их настройки.
 
-[gateway](https://github.com/Citeck/ecos-gateway) repository contains gateway implementation.
+[gateway](https://github.com/Citeck/ecos-gateway) - микросервис реализует API шлюз взаимодействия от клиента к серверу.
 
-[ecom](https://github.com/Citeck/ecos-ecom) repository contains a solution for creating and managing email newsletters, chat bots within the platform.
+[ecom](https://github.com/Citeck/ecos-ecom) - микросервис для создания и управления email-рассылками, чат-ботами внутри платформы.
 
-[transformations]() - TBD
+[transformations]() - микросервис для генерации документов по шаблонам. **Ссылка на репо**
 
-## Apps and modules repos
+## Репозитории модулей и приложений
 
-[Service Desk](https://github.com/Citeck/ecos-service-desk) module provides a solution for handling service requests, incidents, and support tickets. 
+[Service Desk](https://github.com/Citeck/ecos-service-desk) - модуль предоставляет решение для обработки запросов на обслуживание, инцидентов и заявок на поддержку.
 
-[CRM](https://github.com/Citeck/ecos-crm) module offers various features to streamline CRM processes, such as lead management, opportunity tracking, contact management, and sales pipeline management.
+[CRM](https://github.com/Citeck/ecos-crm) модуль предлагает различные функции для оптимизации процессов CRM, такие как управление потенциальными клиентами, отслеживание возможностей, управление контактами и управление воронкой продаж.
 
-[Assignments](https://github.com/Citeck/ecos-assignments) module provides a solution for setting tasks within the main types, assign individual tasks to employees.
+[Assignments](https://github.com/Citeck/ecos-assignments) - модуль предназначен для постановки поручений на исполнение, и проверки результатов их исполнения при необходимости. 
 
-[Order pass](https://github.com/Citeck/ecos-order-pass) module offers a user-friendly interface for creating and tracking passes. 
+[Order pass](https://github.com/Citeck/ecos-order-pass) - модуль предназначен для оформления и отслеживания выданных пропусков.
 
-[Meetings](https://github.com/Citeck/ecos-meetings) module provides a  solution for scheduling, organizing, and managing meetings efficiently. 
+[Meetings](https://github.com/Citeck/ecos-meetings) - модуль предназначен для планирования, управления и проведения совещаний.
 
-[Offers](https://github.com/Citeck/ecos-offers) module provides a comprehensive solution for hiring employees, maintaining a candidate for the recruitment process, storing information for each candidate.
+[Offers](https://github.com/Citeck/ecos-offers) - модуль предоставляет комплексное решение для ведения процесса подбора кандидатов, хранения информации по каждому кандидату.
 
-[Time tracking](https://github.com/Citeck/ecos-time-tracking) module provides a solution for setting work logs.
+[Time tracking](https://github.com/Citeck/ecos-time-tracking) - модуль позволяет вести учет времени, затраченного сотрудником на работу по конкретной задаче, документу непосредственно из карточки задачи, документа.
 
-[Contracts]() TBD
+[Contracts]() - модуль предназначен для учета и согласования бумажных договоров, и документов, связанных с договорами. **Ссылка на репо**
 
-[Common data list]() TBD
+[Common data list]() - модуль, содержащий общедоступные справочники, используемые в Citeck. **Ссылка на репо**
 
-[Corporate portal]() TBD
+[Corporate portal]() - модуль обеспечивает доступ к информации и корпоративным сервисам компании. **Ссылка на репо**
 
-[Vacations]() TBD
+[Vacations]() - модуль обеспечивает создание, согласование и учет заявлений на отпуск. **Ссылка на репо**
 
-[Correspondence]() TBD
+[Correspondence]() - модуль предназначен для работы с входящей и исходящей корреспонденцией. **Ссылка на репо**
 
-[Administrative regulatory orders]() TBD
+[Administrative regulatory orders]() - модуль предназначен для работы с организационно-распорядительными документами: приказами, распоряжениями, нормативными актами, служебными записками и т.д. **Ссылка на репо**
 
-## IDEA plugin
+## Плагин для IntelliJ IDEA
 
-[IDEA plugin](https://github.com/Citeck/ecos-idea-plugin) repository contains IntelliJ IDEA Plugin for developing microservices and apps for the Citeck platform.
+[IDEA plugin](https://github.com/Citeck/ecos-idea-plugin) - плагин для IntelliJ IDEA для разработки микросервисов и приложений платформы Citeck.
 	
-## Demo microservice
+## Демо микросервис
 
-[demo microservice](https://github.com/Citeck/ecos-demo-app) repository contains demo microservice that demonstrates Citeck features.
+[demo microservice](https://github.com/Citeck/ecos-demo-app) - репозиторий содержит демонстрационный микросервис, демонстрирующий возможности Citeck
 
-[microservice sample](https://github.com/Citeck/ecos-webapp-sample/tree/main/minimal-sample) repository contains Citeck microservice structure. For more details, [see](https://citeck-ecos.readthedocs.io/ru/latest/general/Microservices/new_microservice.html)
+[microservice sample](https://github.com/Citeck/ecos-webapp-sample/tree/main/minimal-sample) - репозиторий содержит структуру микросервиса Citeck. Больше [информации](https://citeck-ecos.readthedocs.io/ru/latest/general/Microservices/new_microservice.html)
 		
-# Documentation
+# Документация
 
 [Our official documentation](https://citeck-ecos.readthedocs.io/)
 
-[docs](https://github.com/Citeck/ecos-docs) repository contains documentation for the platform.
+[docs](https://github.com/Citeck/ecos-docs) -  репозиторий содержит документацию по платформе.
 
-# Contributing
+# Участие в разработке
 
-PRs and issues are welcome! Before contributing:
+PR и issue приветствуются! Перед внесением изменений:
 
-1. Open an issue for discussion.
+1. Откройте issue для обсуждения.
 
-2. Fork the repository.
+2. Сделайте форк репозитория.
 
-3. Create a branch.
+3. Создайте ветку.
