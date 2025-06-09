@@ -43,7 +43,7 @@ If you want to contribute to out platform and make it better, your help is very 
 
 [Service Desk](https://github.com/Citeck/ecos-service-desk) - module provides a solution for handling service requests, incidents, and support tickets. 
 
-[CRM](https://github.com/Citeck/ecos-crm) - module offers various features to streamline CRM processes, such as lead management, opportunity tracking, contact management, and sales pipeline management.
+[CRM](https://github.com/Citeck/ecos-crm) - module offers various features to streamline customer relationship management processes, such as lead management, opportunity tracking, contact management, and sales pipeline management.
 
 [Assignments](https://github.com/Citeck/ecos-assignments) - module provides a solution for setting tasks within the main types, assign individual tasks to employees.
 
